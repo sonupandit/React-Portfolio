@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Link } from "react-router-dom";
 import {
     Container,
@@ -6,10 +6,7 @@ import {
     Col
 } from 'react-bootstrap';
 
-class Header extends Component {
-    state = {  }
-    render() {
-        return (
+const Header = () =>(
             <>
                 <div className="header-main">
                     <Container>
@@ -39,7 +36,5 @@ class Header extends Component {
                 </div>
             </>
          );
-    }
-}
 
 export default Header;

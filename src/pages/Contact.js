@@ -5,13 +5,7 @@ import {
     Col
 } from 'react-bootstrap';
 
-class Contact extends Component{
-    state = {
-
-    }
-
-    render(){
-        return(
+const Contact = ()=>(
             <>
                 <section className="section section-contact clearfix">
                     <Container>
@@ -26,8 +20,5 @@ class Contact extends Component{
                     </Container>
                 </section>
             </>
-        )
-    }
-}
-
+ )
 export default Contact;
