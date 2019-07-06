@@ -11,7 +11,6 @@ const Home = () =>(
                 <section className="section section-home clearfix">
                     <Container>
                         <Row className="justify-content-end">
-                            Col
                             <Col xs="12" md="6">
                                 <div className="content">
                                     <h1>Lorem ipsum dolor sit amet</h1>
