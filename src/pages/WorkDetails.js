@@ -14,7 +14,7 @@ class WorkDetails extends Component{
     componentDidMount(){
         console.log(this.props.match.params.id);
         var $this = this;
-        axios.get(`https://jsonplaceholder.typicode.com/photos/${this.props.match.params.id}`)
+        axios.get(`https://jsonplaceholder.typicode.com/photos/${this.props.match.params.id < 11 ? this.props.match.params.id : null}`)
         .then(function (response) {
             let $wdetails = response.data;
             $this.setState({
